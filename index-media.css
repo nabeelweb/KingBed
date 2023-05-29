@@ -1,0 +1,110 @@
+    @media screen and (max-width:1075px){
+        .contactDiv{
+            font-size:16px;
+        }
+    }
+    @media screen and (max-width:923px){
+        .con  , .menu{
+            display:none;
+        }
+        .foterlogo{
+            height:15vh;
+            width:90%;
+        }
+    }
+
+    @media screen and (max-width:723px) {
+        .sidebar {
+            width: 100%;
+            left: -100%;
+            text-align: right;
+        }
+
+    }
+    @media screen and (max-width:723px) {
+        .animate-charcter{
+            font-size:35px;
+        }
+    }
+
+    @media screen and (max-width:768px) {
+
+        .section-4{
+            flex-direction: column;
+        }
+        .pillow-1{
+            width:70%;
+        }
+        .socialDiv {
+            margin-left: 15px;
+        }
+
+        .last {
+            display: none;
+        }
+    }
+     @media screen and (max-width:600px){
+        .mattres{
+            font-size:16px;
+        }
+        .lux{
+            font-size:16px;
+        }
+        .btn1{
+            bottom:5px;
+            width:150px;
+        }
+        .btn1:hover .discover{
+    margin-left:-5px;
+}
+.btn1:hover .right{
+    margin-left:10px;
+    opacity:1;
+}
+        .discover{
+            
+            font-size:13px;
+        }
+        .letters{
+            font-size:19px;
+        }
+        .slider-buttons{
+            display:none;
+        }
+        .img-parent{
+            width:100%;
+        }
+      
+     }
+     @media screen and (max-width:423px){
+           .btn1{
+            bottom:5px;
+            height:30px;
+            padding:2px 0px;
+            width:160px;
+        }
+     }
+
+
+
+
+     /* 
+     
+     
+     To add a web link to your Shopify app, you can follow these steps:
+
+Log in to your Shopify account and navigate to your Shopify admin dashboard.
+
+Click on the "Apps" tab on the left-hand menu.
+
+Scroll down to the "Installed apps" section and find the app where you want to add the web link.
+
+Click on the app to open its settings and find the option to add a web link.
+
+Enter the URL of your web page into the field provided.
+
+Save your changes and check that the link is working properly.
+
+Note: The process may vary slightly depending on the specific app you are using in Shopify. If you have any difficulties or need further assistance, you can refer to the app's documentation or contact their support team for help
+     
+     */

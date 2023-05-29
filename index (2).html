@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <title>Contact us</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            overflow: hidden;
+        }
+
+        body {
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #222020;
+        }
+
+        .Fourm-page {
+            width: 100%;
+            height: auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .contact-sec {
+            width: 70%;
+            height: 100%;
+            color: #FFFFFF;
+            font-family: 'Roboto', sans-serif;
+            font-weight: 300;
+            letter-spacing: 1px;
+            padding: 10px 20px;
+        }
+
+        form {
+            width: 100%;
+            margin: 0 auto;
+            font-family: Arial, sans-serif;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            border: none;
+            background-color: #3e3d3d;
+            font-size: 16px;
+            font-family: Arial, sans-serif;
+        }
+
+        input[type="submit"] {
+            display: block;
+            width: 50%;
+            padding: 15px;
+            margin-top: 20px;
+            border-radius: 30px;
+            border: none;
+            background-color: transparent;
+            border: 1px solid #A2AAAD;
+            color: #fff;
+            font-size: 16px;
+            font-family: Arial, sans-serif;
+            cursor: pointer;
+            margin: 20px auto;
+            letter-spacing: 1px;
+            transition: all .56s;
+        }
+
+        input[type="submit"]:hover {
+            color: #006039;
+        }
+
+        input {
+            outline: none;
+            color: #A2AAAD;
+        }
+
+        input:focus {
+            border: 2px solid #A2AAAD;
+            background-color: transparent;
+            border-bottom: 2px solid #A2AAAD;
+
+        }
+
+        textarea {
+            outline: none;
+            color: #A2AAAD;
+        }
+
+        textarea:focus {
+            border: 2px solid #A2AAAD;
+            background-color: transparent;
+            border-bottom: 2px solid #A2AAAD;
+        }
+
+        @media screen and (max-width:723px) {
+            .contact-sec {
+                width: 100%;
+                padding: 10px 20px;
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="Fourm-page" data-aos="fade-up" data-aos-duration="3000">
+        <div class="contact-sec">
+            <h1>Contact Us</h1>
+            <br>
+            <form action="submit-form.php" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" placeholder="Enter your message" required></textarea>
+                <input type="checkbox" id="privacy" name="privacy" required>&nbsp; I have read and understand the
+                Privacy Policy and agree to receive the information requested.
+
+                <input type="submit" value="Submit">
+                <p style="color: aquamarine;font-family: cursive;"> <span style="color:red; font-weight:300; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;letter-spacing:2px;font-size:25px;">Note:</span> This Page is Not Applicable For Backend!</p>
+            </form>
+        </div>
+    </div>
+
+
+
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
